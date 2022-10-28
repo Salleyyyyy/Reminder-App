@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-10-12T13:16:57</date>
+  <millis>1634037417611</millis>
+  <sequence>0</sequence>
+  <logger>FCMForwardingServer</logger>
+  <level>INFO</level>
+  <class>com.server.logging.ServerLogger</class>
+  <method>printInfo</method>
+  <thread>35</thread>
+  <message>Received {"date":"Oct 12, 2021 11:16:00 AM","dateFormat":"yyyy-MM-dd HH:mm","dateText":"2021-10-12 11:16","remind":true,"timeZoneID":"GMT","remindType":"BLOODPRESSURE"}</message>
+</record>
+<record>
+  <date>2021-10-12T13:17:01</date>
+  <millis>1634037421077</millis>
+  <sequence>1</sequence>
+  <logger>FCMForwardingServer</logger>
+  <level>INFO</level>
+  <class>com.server.logging.ServerLogger</class>
+  <method>printInfo</method>
+  <thread>42</thread>
+  <message>Received {"date":"Oct 12, 2021 11:17:00 AM","dateFormat":"yyyy-MM-dd HH:mm","dateText":"2021-10-12 11:17","remind":true,"timeZoneID":"GMT","remindType":"WATER"}</message>
+</record>
+<record>
+  <date>2021-10-12T13:17:14</date>
+  <millis>1634037434847</millis>
+  <sequence>2</sequence>
+  <logger>FCMForwardingServer</logger>
+  <level>INFO</level>
+  <class>com.server.logging.ServerLogger</class>
+  <method>printInfo</method>
+  <thread>45</thread>
+  <message>Received {"hourOfDay":11,"minute":17,"date":"Oct 12, 2021 11:17:00 AM","dateFormat":"","dateText":"2021-10-12 11:17","remind":true,"timeZoneID":"GMT","remindType":"DOCAPPOINTMENT"}</message>
+</record>
+<record>
+  <date>2021-10-12T13:21:49</date>
+  <millis>1634037709488</millis>
+  <sequence>3</sequence>
+  <logger>FCMForwardingServer</logger>
+  <level>INFO</level>
+  <class>com.server.logging.ServerLogger</class>
+  <method>printInfo</method>
+  <thread>60</thread>
+  <message>Received {"hourOfDay":11,"minute":21,"date":"Oct 12, 2021 11:21:00 AM","dateFormat":"","dateText":"11:21","remind":true,"timeZoneID":"GMT","remindType":"MEDICINE"}</message>
+</record>
+<record>
+  <date>2021-10-12T13:28:56</date>
+  <millis>1634038136031</millis>
+  <sequence>4</sequence>
+  <logger>FCMForwardingServer</logger>
+  <level>INFO</level>
+  <class>com.server.logging.ServerLogger</class>
+  <method>printInfo</method>
+  <thread>71</thread>
+  <message>Received {"hourOfDay":11,"minute":21,"date":"Oct 12, 2021 11:21:00 AM","dateFormat":"","dateText":"11:21","remind":false,"timeZoneID":"GMT","remindType":"MEDICINE"}</message>
+</record>
+<record>
+  <date>2021-10-12T13:29:17</date>
+  <millis>1634038157298</millis>
+  <sequence>5</sequence>
+  <logger>FCMForwardingServer</logger>
+  <level>INFO</level>
+  <class>com.server.logging.ServerLogger</class>
+  <method>printInfo</method>
+  <thread>74</thread>
+  <message>Received {"hourOfDay":11,"minute":30,"date":"Oct 12, 2021 11:30:00 AM","dateFormat":"","dateText":"2021-10-12 11:30","remind":true,"timeZoneID":"GMT","remindType":"DOCAPPOINTMENT"}</message>
+</record>
+<record>
+  <date>2021-10-12T13:29:29</date>
+  <millis>1634038169932</millis>
+  <sequence>6</sequence>
+  <logger>FCMForwardingServer</logger>
+  <level>INFO</level>
+  <class>com.server.logging.ServerLogger</class>
+  <method>printInfo</method>
+  <thread>79</thread>
+  <message>Received {"hourOfDay":11,"minute":30,"date":"Oct 12, 2021 11:30:00 AM","dateFormat":"","dateText":"11:30","remind":true,"timeZoneID":"GMT","remindType":"MEDICINE"}</message>
+</record>

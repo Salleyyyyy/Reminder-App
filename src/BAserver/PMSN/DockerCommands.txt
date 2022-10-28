@@ -1,0 +1,11 @@
+Build a container: 
+docker build --tag pmsn-docker .
+
+Rund a container (docker runs at background):
+docker run -d -p 83:83 pmsn-docker
+
+Remove the container:
+1. docker ps -> List of all running container
+2. Copy Container ID
+3. docker stop CONTAINER_ID 
+4. docker rm CONTAINER_ID 

@@ -1,0 +1,76 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 30
+    buildToolsVersion "30.0.2"
+
+    defaultConfig {
+        applicationId "com.ba.reminder"
+        minSdkVersion 26
+        targetSdkVersion 29
+        // Due to external android log app
+        maxSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        vectorDrawables.useSupportLibrary = true
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // Use of flavors to build different app versions
+    flavorDimensions "pushtechnology"
+    productFlavors {
+        localpush {
+            dimension "pushtechnology"
+            applicationIdSuffix ".localpush"
+            versionNameSuffix "-localpush"
+        }
+        // Will be implemented soon
+        longpolling {
+            dimension "pushtechnology"
+            applicationIdSuffix ".longpolling"
+            versionNameSuffix "-longpolling"
+        }
+        remoteFCM {
+            dimension "pushtechnology"
+            applicationIdSuffix ".remoteFCM"
+            versionNameSuffix "-remoteFCM"
+            // Apply only for this flavor
+            apply plugin: 'com.google.gms.google-services'
+        }
+        remotepush {
+            dimension "pushtechnology"
+            applicationIdSuffix ".remotepush"
+            versionNameSuffix "-remotepush"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:28.0.1')
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'com.google.code.gson:gson:2.8.7'
+
+    // Only for fcm flavor
+    remoteFCMImplementation 'com.google.firebase:firebase-messaging'
+    remoteFCMImplementation 'com.google.firebase:firebase-analytics'
+}

@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.ba.reminder.longpolling",
+  "variantName": "longpollingRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "versionCode": 1,
+      "versionName": "1.0-longpolling",
+      "outputFile": "app-longpolling-release.apk"
+    }
+  ]
+}

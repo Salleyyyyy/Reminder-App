@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Reminder</string>
+    <string name="label_title">Schenken Sie Ihrer Gesundheit mehr Beachtung!</string>
+    <string name="furtherSettingsString"><u>Weitere Einstellungen</u></string>
+    <string name="label_selected_date">Ausgewähltes Datum</string>
+    <string name="label_selected_time">Ausgewählte Uhrzeit</string>
+    <string name="label_button_further">Weiter</string>
+    <string name="label_button_change_date">Datum ändern</string>
+    <string name="bloodpressure_label">Erinnerung an Blutdruckmessung (jede Stunde)</string>
+    <string name="water_label">Erinnerung an Wasser Trinken (jede halbe Stunde)</string>
+    <string name="contentdesc_delete_entry">Delete Entry</string>
+    <string name="label_all_entries">Alle Einträge</string>
+    <string name="label_button_newmedicine">Neuer Medikament Eintrag</string>
+    <string name="label_button_docappoint">Neuer Arzttermin Eintrag</string>
+    <string name="label_button_save">Speichern</string>
+    <string name="label_button_change_time">Uhrzeit ändern</string>
+    <string name="label_button_cancel">Abbrechen</string>
+    <string name="label_general">Generell</string>
+    <string name="default_notification_channel_id">fcm_default_channel</string>
+</resources>

@@ -1,0 +1,11 @@
+Build a container: 
+docker build --tag privateserver-docker .
+
+Rund a container (docker runs at background):
+docker run -d -p 80:80 -p 81:81 -p 82:82 privateserver-docker
+
+Remove the container:
+1. docker ps -> List of all running containers
+2. Copy Container ID
+3. docker stop CONTAINER_ID 
+4. docker rm CONTAINER_ID 
